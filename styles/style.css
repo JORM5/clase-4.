@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Vina+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+.menu {
+    list-style-type: none;
+    background-color: goldenrod;
+    padding-block: 10px;
+    position: fixed;
+    top: 30px;
+    width: 100%;
+    z-index: 1;
+}
+.menu_inicio {
+    display: inline-block;
+    margin-inline: 20px;
+}
+.menu_inicio a{
+    color: cyan;
+    text-decoration: none;
+}
+
+.menu_inicio.ac a, .menu_inicio a:hover{
+    text-decoration: underline double;
+}
+
+main {
+    padding:40px ;
+}
+/*Cartas*/
+.carta{
+    width: 300px;
+    background-color: darkcyan;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-inline: 1.5%;
+    margin-block: 20px;
+    overflow: auto;
+    position: relative;
+}
+
+.carta_imagen {
+    width: 100%;
+}
+.carta_titulo{
+    font-size: 30px;
+}
+.carta_parrafo{
+    font-size: 16px;
+}
+.carta_boton{
+    background-color: darkgray;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.carta_imagen,
+.carta_titulo,
+.carta_parrafo{
+    margin-bottom: 30px;
+}
+
+.carta_icono{
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+/*Icono*/
+.icono{
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+    width: 100px;
+}
